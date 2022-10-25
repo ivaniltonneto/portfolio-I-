@@ -4,7 +4,7 @@ export const AboutMe = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 100%;  
   height: 548px;
   color: var(--white);
   box-shadow: var(--black) 2px 2px 5px;
@@ -16,6 +16,7 @@ export const AboutMe = styled.div`
   h4 {
     font-family: var(--ff-heading);
     font-size: 25px;
+    margin-top: 27px;
     margin-bottom: 10px;
     text-shadow: 3px 3px 3px var(--black);
   }
@@ -111,7 +112,7 @@ export const Certificates = styled.section`
   }
   div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   img {

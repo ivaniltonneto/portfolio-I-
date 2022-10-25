@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StackCard = styled.div`
-  min-width: 10.25rem;
+  min-width: 14.00rem;
   max-width: 10.25rem;
   padding: 1rem;
   border-radius: 8px;

@@ -21,7 +21,7 @@ function HomePage() {
         <div>
           <h4>Sobre Mim</h4>
           <p>
-          Meu contato com tecnologia começou com jogos, por volta do ano de 2008, desde então essa vontade de conhecer a área só aumentou. Comecei a estudar por conta própria principalmente a parte de redes, em 2012 passei em uma escola de ensino médio e  técnico para o curso  de rede de computadores, que conclui em 2014.Por morar em uma pequena cidade metropolitana, a perpectiva tecnologica não tinha tanto crescimento, assim, foquei meus estudos na área da engenharia. Com o passar dos dias, percebi que meu desejo maior sempre foi trabalhar e estudar a aréa da tecnologia. Assim, comecei a fazer Ciência da computação, curso que me fez compreender muito sobre o que verdadeiramente gosto de fazer. Atualmente venho levantado estudos e práticas nos vieses da programação. Empenho-me para conseguir entregar o melhor, pois essa área representa o futuro, as inovaçoes que misturadas com novas perspectivas de vida, oferecem uma maior qualidade de vida, pois conforme a tecnologia avança a sociedade colhe os frutos dessa evolução tanto em informações, aprendizado, otimização de algum serviço, segurança e outros fatores. Tenho como meta profissional contribuir para a proliferação desses avanços da melhor forma.  
+          Meu contato com tecnologia começou com jogos, por volta do ano de 2008, desde então essa vontade de conhecer a área só aumentou. Por morar em uma pequena cidade metropolitana, a perpectiva tecnologica não tinha tanto crescimento, assim, foquei meus estudos na área da engenharia. Com o passar dos dias, percebi que meu desejo maior sempre foi trabalhar e estudar a aréa da tecnologia. Assim, comecei a fazer Ciência da computação. Atualmente venho levantado estudos e práticas nos vieses da programação. Empenho-me para conseguir entregar o melhor, pois essa área representa o futuro, as inovaçoes que misturadas com novas perspectivas de vida, oferecem uma maior qualidade de vida, pois conforme a tecnologia avança a sociedade colhe os frutos dessa evolução tanto em informações, aprendizado, otimização de serviços, segurança e outros fatores. Tenho como meta profissional contribuir para a proliferação desses avanços da melhor forma.  
           </p>
         </div>
       </AboutMe>
@@ -52,7 +52,7 @@ function HomePage() {
           target="blank"
           href="https://www.linkedin.com/in/ivanilton-neto-a712a379/"
         >
-          Made by @MJTSJ
+          Made by @IvaniltonNeto
         </a>
       </StyledFooter>
     </>

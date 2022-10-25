@@ -17,7 +17,7 @@ function InitialPage() {
   const [released, setReleased] = useState(false);
   const vidRef = useRef(null);
   const text1 = "Olá, Sou Ivanilton Neto";
-  const text2 = "este é meu portifólio";
+  const text2 = "este é meu portifólio,";
   const text3 = "conheça meus projetos!";
 
   const handlePlayVideo = () => {
