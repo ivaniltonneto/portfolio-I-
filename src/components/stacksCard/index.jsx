@@ -1,6 +1,6 @@
 import { StackCard } from "./styles";
 
-export const Stack = ({ title, Icon }) => {
+const Stack = ({ title, Icon }) => {
   const isString = typeof Icon === "string";
 
   return (
@@ -14,3 +14,5 @@ export const Stack = ({ title, Icon }) => {
     </StackCard>
   );
 };
+
+export default Stack

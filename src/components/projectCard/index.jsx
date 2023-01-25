@@ -2,7 +2,7 @@ import { CardContainer, ModalContent, Modal } from "./styles";
 import { SiReact, SiGithub } from "react-icons/si";
 import { useState } from "react";
 
-function ProjectCard( {project}) {
+const ProjectCard = ({ project }) => {
   const [modal, setModal] = useState(false);
   return (
     <>

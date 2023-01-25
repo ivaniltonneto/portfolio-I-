@@ -3,7 +3,7 @@ import kenzieflix from "../../assets/projects_imgs/kenzieflix.png";
 import NuKenzie from "../../assets/projects_imgs/NuKenzie.png";
 import Timestamp from "../../assets/projects_imgs/Timestamp.png";
 
-export const projects = [
+const projects = [
   {
     img: herostodo,
     title: "Hero's to do",
@@ -37,3 +37,5 @@ export const projects = [
     github: "https://github.com/ivaniltonneto/projeto-nu-kenzie",
   },
 ];
+
+export default projects

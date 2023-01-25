@@ -29,6 +29,13 @@ export const AboutMe = styled.div`
     padding-left: 50px;
     width: 50%;
   }
+  @media(max-width: 1400px) {
+    div {
+      margin-top: 10%;
+      width: 75%;
+    }
+  }
+
   @media (max-width: 800px) {
     div {
       padding-left: 20px;
