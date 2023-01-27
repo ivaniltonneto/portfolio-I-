@@ -57,7 +57,7 @@ export const Porjectscontainer = styled.div`
     flex-wrap: wrap;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;   
   }
   h4 {
     color: var(--white);

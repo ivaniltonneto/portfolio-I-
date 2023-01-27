@@ -1,5 +1,6 @@
 import { CardContainer, ModalContent, Modal } from "./styles";
 import { SiReact, SiGithub } from "react-icons/si";
+import { SlPaperPlane } from "react-icons/sl";
 import { useState } from "react";
 
 const ProjectCard = ({ project }) => {
@@ -24,7 +25,7 @@ const ProjectCard = ({ project }) => {
 
             <div>
               <a href={project.link} target="blank">
-                <SiReact /> App
+                <SlPaperPlane /> App
               </a>
               <a href={project.github} target="blank">
                 <SiGithub /> Github

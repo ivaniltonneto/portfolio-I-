@@ -1,7 +1,10 @@
 import herostodo from "../../assets/projects_imgs/herostodo.png";
-import kenzieflix from "../../assets/projects_imgs/kenzieflix.png";
+import todoList from "../../assets/projects_imgs/todoList.png";
 import NuKenzie from "../../assets/projects_imgs/NuKenzie.png";
 import Timestamp from "../../assets/projects_imgs/Timestamp.png";
+import DesFrontend from "../../assets/projects_imgs/DesFrontend.png"
+import python from "../../assets/projects_imgs/python.png"
+import nodejs from "../../assets/projects_imgs/nodejs.png"
 
 const projects = [
   {
@@ -21,12 +24,12 @@ const projects = [
     github: "https://github.com/ivaniltonneto/time-stamp",
   },
   {
-    img: kenzieflix,
-    title: "kenzie Flix",
+    img: todoList,
+    title: "To-do List",
     description:
-      "Aplicação desenvolvida como base na tela de usuários da Netflix. Nesse projeto utilizei tecnologias como css3, html5. ",
-    link: "https://kenzie-flix.vercel.app",
-    github: "https://github.com/ivaniltonneto/KenzieFlix",
+      "Uma lista de tarefas é uma lista de coisas a fazer que precisam ser feitas. É uma forma de organizar atividades que não podem ser esquecidas e que não fazem parte da nossa rotina. É diferente de uma agenda, onde as atividades têm dia e hora para acontecer. Nesse projeto utilizei tecnologias como reactjs, styled-components, typescript, vitejs.",
+    link: "https://to-do-list-brown-gamma.vercel.app",
+    github: "https://github.com/ivaniltonneto/to-do-list",
   },
   {
     img: NuKenzie,
@@ -36,6 +39,48 @@ const projects = [
     link: "https://projeto-nu-kenzie-git-main-ivaniltonneto.vercel.app",
     github: "https://github.com/ivaniltonneto/projeto-nu-kenzie",
   },
+  {
+    img: DesFrontend,
+    title: "Calculadora de Antecipação",
+    description:"Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento. Nesse projeto utilizei tecnologias como, styled-components, html5, javascript, reactjs",
+    link:"https://des-fron-end.vercel.app",
+    github:"https://github.com/ivaniltonneto/desFron-End",
+  },
+  {
+    img: nodejs,
+    title: "CRUD (TypeORM + PostgreSQL)",
+    description:"Projeto desenvolvido para um serviço de back-end responsável por gerenciar um CRUD de usuário utilizando TypeORM. Nesse projeto utilizei tecnologias e bibliotecas como, Express, bcrypt, JWT, pg, typeorm, typescript, jest, cross-env, dotenv, reflect-metadata, supertest, class-transformer, express-async-errors.",
+    link:"https://github.com/ivaniltonneto/m4-entrega-sprint4-",
+    github:"https://github.com/ivaniltonneto/m4-entrega-sprint4-"
+  },
+  {
+    img: python,
+    title: "Projeto Medboard",
+    description:"Facilitar e agilizar o acesso de informações médicas como consultas, medicamentos, ficha médica e medicamentos a pacientes, médicos e redes hospitalares tornando mais rápido e assertivo os atendimentos. Nesse projeto utilizei tecnologias como e bibliotecas , python, django + rest Framework, AWS, PostgreSQL, SQLite, Pywhatkit",
+    link:"https://github.com/ivaniltonneto/m5-bandkamp-generic-view-",
+    github:"https://github.com/ivaniltonneto/m5-bandkamp-generic-view-"
+  },
+  {
+    img: nodejs,
+    title: "Projeto Gaming-Partner",
+    description:"A experiência de jogar online é imensamente prazerosa quando podemos compartilhar essa experiência com amigos, mas mesmo vivendo em uma época tão conectada, ainda temos pessoas que não se encontram para jogar juntos, e que muitas vezes podem acabar desistindo da experiência. porque eles enfrentam isso sozinhos. pode não ser o mais lucrativo, principalmente em jogos online. A princípio nosso aplicativo permitirá que as pessoas escolham seus jogos favoritos, e encontrem outros jogadores com o mesmo objetivo, ganhar!!. Nesse projeto utilizei tecnologias e bibliotecas como, Express, bcrypt, JWT, pg, typeorm, typescript, jest, cross-env, dotenv, reflect-metadata, supertest, class-transformer, express-async-errors.",
+    link:"https://documentation-one-red.vercel.app",
+    github:"https://github.com/pb-node-equipe-15/gaming-partner"
+  },
+  {
+    img: python,
+    title: "BandKamp Generic",
+    description:"O objetivo nesse projeto é adequar um sistema 'legado' que inicialmente já está desenvolvido com APIView e sqlite3, fazendo a transição para Generic Views, ModelSerializer, Postgres e Deploy, além de documentar e de verificar e manter a integridade das funcionalidades já existentes. Nesse projeto utilizei tecnologias como e bibliotecas , python, django + rest Framework, AWS, PostgreSQL, SQLite, Pywhatkit",
+    link:"https://github.com/m5-t12-g25-raphael/projeto-medboard",
+    github:"https://github.com/m5-t12-g25-raphael/projeto-medboard"
+  },
+  {
+    img: nodejs,
+    title: "KIMOVEIS",
+    description:"Projeto desenvolvido para serviço de back-end responsável por gerenciar uma imobiliária utilizando TypeORM e relacionamentos 1:1, 1:N e N:N. Nesse projeto utilizei tecnologias e bibliotecas como, Express, bcrypt, JWT, pg, typeorm, typescript, jest, cross-env, dotenv, reflect-metadata, supertest, class-transformer, express-async-errors.",
+    link:"https://github.com/ivaniltonneto/-m4-entrega-sprint-5",
+    github:"https://github.com/ivaniltonneto/-m4-entrega-sprint-5"
+  }
 ];
 
 export default projects
