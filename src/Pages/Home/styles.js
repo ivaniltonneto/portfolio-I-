@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AboutMe = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;  
+  width: 100%;
   height: 548px;
   color: var(--white);
   box-shadow: var(--black) 2px 2px 5px;
@@ -29,7 +29,7 @@ export const AboutMe = styled.div`
     padding-left: 50px;
     width: 50%;
   }
-  @media(max-width: 1400px) {
+  @media (max-width: 1400px) {
     div {
       margin-top: 10%;
       width: 75%;
@@ -57,7 +57,7 @@ export const Porjectscontainer = styled.div`
     flex-wrap: wrap;
     display: flex;
     align-items: center;
-    justify-content: space-around;   
+    justify-content: space-around;
   }
   h4 {
     color: var(--white);
@@ -94,6 +94,7 @@ export const Stackscontainer = styled.div`
     align-items: center;
     justify-content: space-around;
   }
+
   @media (max-width: 800px) {
     h4 {
       font-size: 20px;
@@ -117,30 +118,32 @@ export const Certificates = styled.section`
     text-align: start;
     text-shadow: 3px 3px 3px var(--black);
   }
-  div {
+  ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 1em;
+    overflow-x: auto;
   }
-  img {
-    box-shadow: 2px 2px 5px var(--black);
-    width: 45%;
-    margin: 40px 0;
-    border-radius: 8px;
+  ul::-webkit-scrollbar {
+    width: 1px;
   }
+
+  ul::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  ul::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+  } 
+
   @media (max-width: 800px) {
     padding: 10px;
     h4 {
       font-size: 20px;
       padding: 20px;
     }
-    div {
+    ul {
       flex-direction: column;
-    }
-    img {
-      width: 90%;
-      margin: 10px;
-    }
+    }    
   }
 `;
 

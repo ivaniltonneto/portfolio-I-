@@ -14,7 +14,7 @@ export const CardContainer = styled.div`
   border: 2px solid var(--blue);
   cursor: pointer;
   :hover {
-    box-shadow: 0px 0px 15px var(--purple);
+    box-shadow: 0px 0px 15px var(--white);
   }
 `;
 

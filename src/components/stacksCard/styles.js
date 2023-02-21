@@ -49,7 +49,7 @@ export const StackCard = styled.div`
     }
   }
   :hover {
-    box-shadow: 0px 0px 8px var(--purple);
+    box-shadow: 0px 0px 8px var(--white);
 
     p {
       margin-top: -40px;
