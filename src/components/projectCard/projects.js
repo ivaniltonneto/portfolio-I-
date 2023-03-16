@@ -2,7 +2,7 @@ import herostodo from "../../assets/projects_imgs/herostodo.png";
 import todoList from "../../assets/projects_imgs/todoList.png";
 import NuKenzie from "../../assets/projects_imgs/NuKenzie.png";
 import Timestamp from "../../assets/projects_imgs/Timestamp.png";
-import DesFrontend from "../../assets/projects_imgs/DesFrontend.png"
+import motorShop from "../../assets/projects_imgs/motorShop.png"
 import python from "../../assets/projects_imgs/python.png"
 import nodejs from "../../assets/projects_imgs/nodejs.png"
 
@@ -27,7 +27,7 @@ const projects = [
     img: todoList,
     title: "To-do List",
     description:
-      "Uma lista de tarefas é uma lista de coisas a fazer que precisam ser feitas. É uma forma de organizar atividades que não podem ser esquecidas e que não fazem parte da nossa rotina. É diferente de uma agenda, onde as atividades têm dia e hora para acontecer. Nesse projeto utilizei tecnologias como reactjs, styled-components, typescript, vitejs.",
+      "Uma to-do list é uma lista de coisas a fazer. É uma forma de organizar atividades que não podem ser esquecidas e que não fazem parte da nossa rotina. É diferente de uma agenda, onde as atividades têm dia e hora para acontecer. Nesse projeto utilizei tecnologias como reactjs, styled-components, typescript, vitejs.",
     link: "https://to-do-list-brown-gamma.vercel.app",
     github: "https://github.com/ivaniltonneto/to-do-list",
   },
@@ -40,11 +40,11 @@ const projects = [
     github: "https://github.com/ivaniltonneto/projeto-nu-kenzie",
   },
   {
-    img: DesFrontend,
-    title: "Calculadora de Antecipação",
-    description:"Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento. Nesse projeto utilizei tecnologias como, styled-components, html5, javascript, reactjs",
-    link:"https://des-fron-end.vercel.app",
-    github:"https://github.com/ivaniltonneto/desFron-End",
+    img: motorShop,
+    title: "Motor Shop - FullStack",
+    description:"Aplicativo desenvolvido para negociações de carros e motos na modalidade leilão, trazendo uma experiência nunca vista antes! Nesse projeto foi ultilizado tecnologias como, styled-components, Axios, React Hot Toast, reactjs, Animate.css",
+    link:"https://motors-shops-front.vercel.app",
+    github:"https://github.com/orgs/Motors-Shop-Grupo-16/repositories",
   },
   {
     img: nodejs,

@@ -1,10 +1,12 @@
 import frontEnd from '../../assets/imgs/frontEnd.png';
+import fullStack from '../../assets/imgs/fullStack.png';
 import Logica from '../../assets/imgs/Logica.png';
 import js from '../../assets/imgs/js.png';
 import postgresSQL from '../../assets/imgs/postgresSQL.png';
 import React from '../../assets/imgs/React.png';
 
 const certificatesData = [
+    { title: 'Certificado FullStack', certificate: fullStack },
     { title: 'Certificado Front-End', certificate: frontEnd },
     { title: 'Certificado Logica', certificate: Logica },
     { title: 'Certificado JS', certificate: js },

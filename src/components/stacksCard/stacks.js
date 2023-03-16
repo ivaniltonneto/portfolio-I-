@@ -10,7 +10,13 @@ import {
   SiGit,
   SiTrello,
   SiJira,
-  SiExpress
+  SiExpress,
+  SiPrisma,
+  SiNestjs,
+  SiMysql,
+  SiJson,
+  SiVite,
+  SiPrettier
 } from "react-icons/si";
 import {
   FaDocker,
@@ -23,6 +29,8 @@ import {
   FaNpm,
   FaPython
 } from "react-icons/fa";
+import { DiScrum } from "react-icons/di"
+import {MdApi} from "react-icons/md"
 
 const stackData = [
   { title: "HTML", img: FaHtml5 },
@@ -34,9 +42,14 @@ const stackData = [
   { title: "Styled Components", img: SiStyledcomponents },
   { title: "Nmp", img: FaNpm },
   { title: "Yarn", img: FaYarn },
+  { title: "Context-API", img: MdApi },
   { title: "Node JS", img: FaNodeJs },
-  { title: "Express", img: SiExpress },
+  { title: "JSON", img: SiJson },
+  { title: "Prisma", img: SiPrisma },
+  { title: "Nest.Js", img: SiNestjs },
+  { title: "Express", img: SiExpress },  
   { title: "Postgresql", img: SiPostgresql },
+  { title: "MySQL", img: SiMysql },
   { title: "Python", img: FaPython },
   { title: "Django", img: SiDjango },
   { title: "Jest", img: SiJest },
@@ -44,8 +57,11 @@ const stackData = [
   { title: "Figma", img: SiFigma },
   { title: "GitHub", img: FaGithub },
   { title: "Git", img: SiGit },
+  { title: "Prettier", img: SiPrettier },
   { title: "Trello", img: SiTrello },
   { title: "Jira", img: SiJira },
+  { title: "Vite", img: SiVite },
+  { title: "Scrum", img: DiScrum },
 ];
 
 export default stackData
